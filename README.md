@@ -1,4 +1,4 @@
-# Recipes
+# Neela's Recipes
 
 A personal recipe collection, recreated from `Recipes.docx` as a static HTML/CSS site.
 
