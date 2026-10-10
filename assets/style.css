@@ -101,8 +101,8 @@ p { margin: 0; }
 
 /* Meal tiles (home) */
 .meal-tiles { display: grid; grid-template-columns: 1fr; gap: 12px; }
-@media (min-width: 640px) { .meal-tiles { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 1100px) { .meal-tiles { grid-template-columns: repeat(4, 1fr); gap: 16px; } }
+@media (min-width: 640px) and (max-width: 1099px) { .meal-tiles { grid-template-columns: 1fr 1fr; } .meal-tile:last-child { grid-column: 1 / -1; } }
+@media (min-width: 1100px) { .meal-tiles { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
 .meal-tile {
   display: flex; flex-direction: column; min-height: 220px; padding: 24px; border-radius: 32px;
   text-decoration: none; background: var(--green-tile); color: var(--dark);
@@ -237,7 +237,7 @@ p { margin: 0; }
 /* Footer */
 .site-footer { margin-top: 160px; padding-bottom: 40px; }
 .footer-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 16px; }
-@media (min-width: 768px) { .footer-grid { grid-template-columns: repeat(5, 1fr); } }
+@media (min-width: 768px) { .footer-grid { grid-template-columns: repeat(4, 1fr); } }
 .footer-col__title { text-decoration: none; color: var(--dark); transition: color .3s ease; }
 .footer-col__title:hover { color: var(--green); }
 .footer-col .muted { margin-top: 6px; font-size: 15px; }
