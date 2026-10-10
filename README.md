@@ -4,6 +4,8 @@ A personal recipe collection, recreated from `Recipes.docx` as a static HTML/CSS
 
 Live site: https://benwl96.github.io/Recipes/
 
-- `index.html` — all recipes, with a contents sidebar and search
-- `style.css` — styles (light and dark mode, print-friendly)
-- `images/` — recipe photos (compressed from the original document)
+- `index.html` — home: meal tiles, search across every recipe, all recipes grouped by meal
+- `breakfast.html`, `lunch.html`, `dinner.html`, `desserts.html` — every recipe for that meal, with type filters and search
+- `ideas.html` — links and ideas still to try
+- `recipes/` — one page per recipe (ingredients + method, previous/next, more from the same meal)
+- `assets/` — `style.css` and `app.js` (mobile menu, filters, search)
