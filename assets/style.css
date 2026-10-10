@@ -210,7 +210,7 @@ p { margin: 0; }
 .ingredients li li::before { content: ""; position: absolute; left: 0; top: .62em; width: 5px; height: 5px; border-radius: 50%; background: var(--green); opacity: .5; }
 
 /* Method: counted steps */
-.method > ol, .method > ul { counter-reset: step; }
+.method { counter-reset: step; }
 .method > ol > li, .method > ul > li {
   counter-increment: step; position: relative; padding: 0 0 26px 52px; min-height: 36px;
 }
